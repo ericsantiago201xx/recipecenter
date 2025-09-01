@@ -1,0 +1,61 @@
+.carrusel{
+    display: flex;
+    width: 250px;
+    margin-left: 1%;
+}
+.contecarrousel {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.itemcarrousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.itemcarrouseltarjeta {
+  width: 100%;
+  height: 100%;
+}
+.itemcarrouseltarjeta img {
+  width: 100%;
+  height: 100%;
+}
+.itemcarrouselarrows {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 50pt;
+}
+.itemcarrouselarrows i:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+.itemcarrouselarrows i:hover {
+  color: #0bd1df;
+  text-decoration: none;
+  cursor: pointer;
+}
+.contecarrouselcontroller {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.contecarrouselcontroller > a {
+ text-decoration: none;
+ font-size: 2em;
+  color: #1c0a4c;
+}
+.itemcarrouselcontroller > a > i{
+  color: aqua;
+}
